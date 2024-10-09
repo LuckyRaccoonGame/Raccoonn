@@ -55,7 +55,7 @@ const App: React.FC = () => {
           { id: 1, name: 'Mejora Básica', description: 'Aumenta ligeramente tus puntos por hora', cost: 100, pointsPerHourIncrease: 1 },
           { id: 2, name: 'Mejora Avanzada', description: 'Aumenta moderadamente tus puntos por hora', cost: 500, pointsPerHourIncrease: 5 },
           { id: 3, name: 'Mejora Premium', description: 'Aumenta significativamente tus puntos por hora', cost: 2000, pointsPerHourIncrease: 20 },
-          { id: 4, name: 'Premium', description: 'Aumenta significativamente tus puntos por hora', cost: 100, pointsPerHourIncrease: 20000 },
+          { id: 4, name: 'Premium', description: 'Aumenta significativamente tus puntos por hora', cost: 10, pointsPerHourIncrease: 30 },
         ];
         await databaseService.savePurchasableRewards(initialPurchasableRewards);
         setPurchasableRewards(initialPurchasableRewards);
