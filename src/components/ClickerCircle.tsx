@@ -9,7 +9,7 @@ const ClickerCircle: React.FC<ClickerCircleProps> = ({ onClick }) => {
       onClick={onClick}
     >
       <img
-        src="https://i.imgur.com/YourRaccoonImage.png" // Reemplaza con la URL real de la imagen
+        src="/images/Personaje-Lvl-1.png" // Reemplaza con la URL real de la imagen
         alt="Raccoon Clicker"
         className="w-full h-full object-contain"
       />
